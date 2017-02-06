@@ -1,3 +1,0 @@
-#! /bin/bash
-rm -rf ps1-edit
-go build && ./ps1-edit
