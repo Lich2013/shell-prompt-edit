@@ -22,7 +22,7 @@ func init() {
 	//todo 直接通过命令行参数配置来输出
 	//todo 预置一些提示符样式
 	//todo 颜色, powerline
-	ps1List = map[int]string{0: "空格", 1: "日期", 2: "时间", 3: "ostname", 4: "当前工作目录名", 5: "当前用户名", 6: "$"}
+	ps1List = map[int]string{0: "空格", 1: "日期", 2: "时间", 3: "Hostname", 4: "当前工作目录名", 5: "当前用户名", 6: "$"}
 	charList = map[int]string{0: ` `, 1: `\d`, 2: `\t`, 3: `\H`, 4: `\w`, 5: `\u`, 6: `\$`}
 }
 
